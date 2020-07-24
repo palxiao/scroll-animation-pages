@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1361866_mu0o7vuia4p.css">
+    <title>Anime</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>loading</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+    // pushHistory();
+    window.addEventListener("popstate", function(e) {
+        //alert("我监听到了浏览器的返回按钮事件啦");//根据自己的需求实现自己的功能
+        // alert('再次操作将会离开本程序');
+        // WeixinJSBridge.call('closeWindow');
+        // if(typeof(WeixinJSBridge)!="undefined"){
+        //         WeixinJSBridge.call('closeWindow');
+        //     }else{
+        //         if (navigator.userAgent.indexOf("MSIE") > 0) {  
+        //             if (navigator.userAgent.indexOf("MSIE 6.0") > 0) {  
+        //                 window.opener = null; window.close();  
+        //             }  
+        //             else {  
+        //                 window.open('', '_top'); window.top.close();  
+        //             }  
+        //         }  
+        //         else if (navigator.userAgent.indexOf("Firefox") > 0) {  
+        //             window.location.href = 'about:blank ';  
+        //             //window.history.go(-2);  
+        //         }  
+        //         else {  
+        //             window.opener = null;   
+        //             window.open('', '_self', '');  
+        //             window.close();  
+        //         }
+        //     }
+    }, false);
+    // window.onbeforeunload = function() {
+    //         return;
+    //     } 
+    // function pushHistory() {
+    //     var state = {
+    //         title: "title",
+    //         url: ""
+    //     };
+    //     window.history.pushState(state, "title", "");
+    // }
+    </script>
+  </body>
+</html>
